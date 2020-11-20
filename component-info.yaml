@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: FeatueSelection
+  description: FeatueSelection
+  tags:
+    - flutter
+    - ios
+    - android
+  annotations:
+    github.com/project-slug: yaacine/FeatueSelection
+    backstage.io/techdocs-ref: github:https://github.com/yaacine/FeatueSelection
+spec:
+  type: mobile_app
+  lifecycle: experimental
+  owner: yaacine
